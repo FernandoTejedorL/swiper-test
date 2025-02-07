@@ -1,3 +1,5 @@
+import Carousel from '../../components/carousel/Carousel';
+
 const Home = () => {
 	return (
 		<>
@@ -8,6 +10,7 @@ const Home = () => {
 				totam accusamus debitis, voluptates quaerat quam earum delectus ipsum
 				temporibus ad.
 			</p>
+			<Carousel />
 		</>
 	);
 };
